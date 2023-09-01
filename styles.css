@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Montserrat:wght@400;500;700&display=swap');
+:root{
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,32 +11,79 @@
 
 }
 
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+   
+}
+p{
+    font-family: var(--font-inter);
+}
+
+#name-wrapper > p {
+    margin-left: 5px;
+}
+
 body{
-    background-color: #edf6f9;
+    background-color: #212529;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-header{
+header {
     margin-top: 50px;
-    -webkit-box-shadow: 0px 0px 80px -3px rgba(67,94,163,0.73);
-    -moz-box-shadow: 0px 0px 80px -3px rgba(67,94,163,0.73);
-    box-shadow: 0px 0px 80px -3px rgba(67,94,163,0.73);
-    border-radius: 25px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.3px);
+    -webkit-backdrop-filter: blur(9.3px);
+    -webkit-box-shadow: 0px 1px 105px -29px rgba(245,242,245,1);
+    -moz-box-shadow: 0px 1px 105px -29px rgba(245,242,245,1);
+    box-shadow: 0px 1px 105px -29px rgba(245,242,245,1);
+    
     width: 1080px;
     height: 250px;
-}
-
-#header-wrapper{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* Vertically space the content */
 }
 
-
-#status-wrapper{
+#header-wrapper {
     display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 100%;
+    height: 100%;
 }
+
+#photo {
+    width: 200px;
+    height: auto;
+    margin-left: 50px;
+}
+
+#name-wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.profile {
+    display: flex;
+
+}
+
+/* #status-wrapper {
+    display: flex;
+
+} */
+
 
 #nd-floor{
     display: flex; 
@@ -39,12 +92,12 @@ header{
 }
 
 .job-history{
-/* From https://css.glass */
-    background: rgba(255, 255, 255, 0.45);
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.85);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.1px);
-    -webkit-backdrop-filter: blur(6.1px);
+    backdrop-filter: blur(9.3px);
+    -webkit-backdrop-filter: blur(9.3px);
     border: 1px solid rgba(255, 255, 255, 0.29);
     box-shadow: 0px 0px 80px -3px rgba(67,94,163,0.73);
     border-radius: 25px;
@@ -53,12 +106,12 @@ header{
 }
 
 .strengths{
-/* From https://css.glass */
-    background: rgba(255, 255, 255, 0.45);
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.85);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.1px);
-    -webkit-backdrop-filter: blur(6.1px);
+    backdrop-filter: blur(9.3px);
+    -webkit-backdrop-filter: blur(9.3px);
     box-shadow: 0px 0px 80px -3px rgba(67,94,163,0.73);
     border: 1px solid rgba(255, 255, 255, 0.29);
     border-radius: 25px;

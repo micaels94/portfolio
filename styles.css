@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    color: #fff;
 }
 
 h1{
@@ -26,7 +26,7 @@ p{
 }
 
 body{
-    background-color: #212529;
+    background-color: #0c1821;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -36,15 +36,15 @@ body{
 header {
     margin-top: 50px;
     /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(49, 50, 50, 0);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(9.3px);
-    -webkit-backdrop-filter: blur(9.3px);
-    -webkit-box-shadow: 0px 1px 105px -29px rgba(245,242,245,1);
-    -moz-box-shadow: 0px 1px 105px -29px rgba(245,242,245,1);
-    box-shadow: 0px 1px 105px -29px rgba(245,242,245,1);
-    
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+    border: 3px solid rgba(255, 255, 255, 0.77);
+    -webkit-box-shadow: 0px 0px 124px -38px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 124px -38px rgba(255,255,255,1);
+    box-shadow: 0px 0px 124px -38px rgba(255,255,255,1);
     width: 1080px;
     height: 250px;
     display: flex;
@@ -62,6 +62,13 @@ header {
     height: 100%;
 }
 
+#status-wrapper{
+    display: flex;
+    flex-direction: column;
+    
+    color: #fff;
+}
+
 #photo {
     width: 200px;
     height: auto;
@@ -72,6 +79,7 @@ header {
     display: flex;
     flex-direction: column;
     border: 1px solid red;
+    color: #fff;
 }
 
 .profile {
@@ -92,14 +100,15 @@ header {
 }
 
 .job-history{
-    /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(49, 50, 50, 0);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(9.3px);
-    -webkit-backdrop-filter: blur(9.3px);
-    border: 1px solid rgba(255, 255, 255, 0.29);
-    box-shadow: 0px 0px 80px -3px rgba(67,94,163,0.73);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+    border: 3px solid rgba(255, 255, 255, 0.77);
+    -webkit-box-shadow: 0px 0px 124px -38px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 124px -38px rgba(255,255,255,1);
+    box-shadow: 0px 0px 124px -38px rgba(255,255,255,1);
     border-radius: 25px;
     width: 500px;
     height: 300px;
@@ -107,13 +116,15 @@ header {
 
 .strengths{
     /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(49, 50, 50, 0);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(9.3px);
-    -webkit-backdrop-filter: blur(9.3px);
-    box-shadow: 0px 0px 80px -3px rgba(67,94,163,0.73);
-    border: 1px solid rgba(255, 255, 255, 0.29);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+    border: 3px solid rgba(255, 255, 255, 0.77);
+    -webkit-box-shadow: 0px 0px 124px -38px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 124px -38px rgba(255,255,255,1);
+    box-shadow: 0px 0px 124px -38px rgba(255,255,255,1);
     border-radius: 25px;
     width: 500px;
     margin-left: 80px;
